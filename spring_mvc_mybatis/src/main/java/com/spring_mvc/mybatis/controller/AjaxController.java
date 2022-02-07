@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class AjaxController {
 	
-	//로그인 폼으로 이동
+	//로그인 폼으로 이동fddd
 	@RequestMapping("/loginForm")
 	public String loginForm() {
 		return "ajax/loginForm"; //loginForm.jsp 뷰 페이지
